@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>三目並べ</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="main">
+        <div class="gameField">
+            <div class="g_column_0">
+                <input type="button" id="game_button_0" class="game_button">
+                <input type="button" id="game_button_1" class="game_button">
+                <input type="button" id="game_button_2" class="game_button">
+            </div>
+            <div class="g_column_1">
+                <input type="button" id="game_button_3" class="game_button">
+                <input type="button" id="game_button_4" class="game_button">
+                <input type="button" id="game_button_5" class="game_button">
+            </div>
+            <div class="g_column_2">
+                <input type="button" id="game_button_6" class="game_button">
+                <input type="button" id="game_button_7" class="game_button">
+                <input type="button" id="game_button_8" class="game_button">
+            </div>
+        </div>
+
+        <!--------------
+        レスポンシブ対応する
+        ボタンが押されたらプレイヤーに対応する画像をボタンのバックグラウンドにする。
+        押されたボタンはゲームが終わるまで押せない    
+        ----------------------->
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

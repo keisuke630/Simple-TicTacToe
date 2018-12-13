@@ -1,0 +1,187 @@
+body{
+    background-color: #63aece;
+}
+
+.header{
+    height: 80px;
+}
+
+.gameField{
+    background-color: white;
+    width: 620px;
+    height: 620px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.game_button{
+    background-color: #63aece;
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+#game_button_1{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#game_button_4{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#game_button_7{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.g_column_0{
+    display: flex;
+    width: 620px;
+    height: 200px;
+}
+
+.g_column_1{
+    margin-top: 10px;
+    display: flex;
+    width: 620px;
+    height: 200px;
+}
+.g_column_2{
+    margin-top: 10px;
+    display: flex;
+    width: 620px;
+    height: 200px;
+}
+
+.clickedBy1{
+    background-image: url(image/player1.png);
+}
+.clickedBy2{
+    background-image: url(image/player2.png);
+}
+.player_1_win{
+    background-image: url(image/player1win.png);
+}
+.player_2_win{
+    background-image: url(image/player2win.png);
+}
+
+@media screen and (max-width:320px){
+    .header{
+        height:20px;
+    }
+
+    .game_button{
+        width: 80px;
+        height: 80px;
+    }
+    .gameField{
+        height: 248px;
+        width: 248px;
+    }
+    #game_button_1{
+        margin-left:4px;
+        margin-right: 4px;
+    }
+
+    #game_button_4{
+        margin-left:4px;
+        margin-right: 4px;
+    }
+    #game_button_7{
+        margin-left:4px;
+        margin-right: 4px;
+    }
+    .g_column_0{
+        width: 248px;
+        height: 80px;
+    }
+    .g_column_1{
+        margin-top: 4px;
+        width: 248px;
+        height: 80px;
+    }
+
+    .g_column_2{
+        margin-top: 4px;
+        width: 248px;
+        height: 80px;
+    }
+
+    .clickedBy1{
+        background-image: url(image/player1-smp.png);
+    }
+    .clickedBy2{
+        background-image: url(image/player2-smp.png);
+    }
+    .player_1_win{
+        background-image: url(image/player1win-smp.png);
+    }
+    .player_2_win{
+        background-image: url(image/player2win-smp.png);
+    }
+    
+}
+
+@media screen and (max-width:640px){
+    .header{
+        height:80px;
+    }
+
+    .game_button{
+        width: 160px;
+        height: 160px;
+    }
+    .gameField{
+        height: 496px;
+        width: 496px;
+    }
+    #game_button_1{
+        margin-left:8px;
+        margin-right: 8px;
+    }
+
+    #game_button_4{
+        margin-left:8px;
+        margin-right: 8px;
+    }
+    #game_button_7{
+        margin-left:8px;
+        margin-right: 8px;
+    }
+    .g_column_0{
+        width: 496px;
+        height: 160px;
+    }
+    .g_column_1{
+        margin-top: 8px;
+        width: 496px;
+        height: 160px;
+    }
+
+    .g_column_2{
+        margin-top: 8px;
+        width: 496px;
+        height: 160px;
+    }
+.clickedBy1{
+    background-image: url(image/player1-tab.png);
+}
+.clickedBy2{
+    background-image: url(image/player2-tab.png);
+}
+.player_1_win{
+    background-image: url(image/player1win-tab.png);
+}
+.player_2_win{
+    background-image: url(image/player2win-tab.png);
+}
+}
